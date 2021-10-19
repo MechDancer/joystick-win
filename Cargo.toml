@@ -1,0 +1,10 @@
+[package]
+name = "joystick-win"
+version = "0.1.0"
+authors = ["YdrMaster <ydrml@hotmail.com>"]
+edition = "2021"
+readme = "README.md"
+
+[target.'cfg(windows)'.dependencies]
+bindings = { path = "bindings" }
+windows = "*"

@@ -1,0 +1,11 @@
+[package]
+name = "bindings"
+version = "0.1.0"
+authors = ["YdrMaster <ydrml@hotmail.com>"]
+edition = "2021"
+
+[dependencies]
+windows = "*"
+
+[build-dependencies]
+windows = "*"
