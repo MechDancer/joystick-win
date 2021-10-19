@@ -1,4 +1,4 @@
-use bindings::Windows::Win32::Media::Multimedia::*;
+use bindings_joystick_win::Windows::Win32::Media::Multimedia::*;
 use std::time::Duration;
 
 pub struct JoyStick {

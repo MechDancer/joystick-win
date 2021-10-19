@@ -6,5 +6,5 @@ edition = "2021"
 readme = "README.md"
 
 [target.'cfg(windows)'.dependencies]
-bindings = { path = "bindings" }
+bindings-joystick-win = { path = "bindings" }
 windows = "*"
