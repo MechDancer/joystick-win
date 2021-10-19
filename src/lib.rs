@@ -51,5 +51,5 @@ fn get_caps(pos: u32) -> Option<((u32, u32), (u32, u32))> {
 
 fn normalize(value: u32, range: (u32, u32)) -> f32 {
     let (min, max) = range;
-    (value - min) as f32 / (max - min) as f32
+    ((2 * (value - min)) as f32 / (max - min) as f32) - 1.0
 }
